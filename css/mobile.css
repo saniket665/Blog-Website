@@ -1,0 +1,143 @@
+@media screen and (max-width: 1360px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-input{
+        font-size: 12px;
+    }
+
+    .nav-right input{
+        font-size: 12px;
+    }
+
+    .btn{
+        font-size: 12px;
+    }
+
+
+    .right-content{
+        display: none;
+    }
+
+    .article{
+        flex-direction: column;
+        /* padding: 0px; */
+        /* margin: 5px 0px; */
+        /* text-align: center; */
+        
+    }
+
+
+    .article-img{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .article-content{
+        text-align: center;
+    }
+
+    .year-box {
+        top: 80px;
+        /* left: 40vw; */
+        font-size: 16px;
+        left: 20px;
+        /* margin-bottom: 100px; */
+        /* text-align: center; */
+        display: flex;
+        /* margin-bottom: 100px; */
+        /* flex-direction: row; */
+      }
+
+      .articles h2{
+          /* margin-top: 20px; */
+          font-size: 24px;
+      }
+    
+      .year-box div {
+        padding: 0px 3px;
+        margin: 0;
+      }
+
+
+      .form-box{
+          /* text-align: center; */
+          width: 90vw;
+      }
+
+      
+
+      .article-img img{
+          width: 50vw;
+          
+      }
+
+      .img-post{
+          height: auto;
+          margin-top: -10px;
+          /* margin: auto; */
+      }
+
+      .img-post img{
+        /* margin: 0px 30px; */
+        /* margin-right: 10px; */
+        /* margin-left: 10px; */
+      }
+
+      .author-info{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+
+      
+
+
+      .row{
+          display: flex;
+          flex-direction: column;
+      }
+
+      .author{
+          flex-direction: row;
+          font-size: 12px;
+          justify-content: center;
+      }
+
+      .social{
+        display: flex;
+        padding-right: 40px;
+        padding-left: 40px;
+        align-self: center;
+        justify-content: space-between;
+        
+    }
+
+    .social a{
+        text-align: center;
+        /* margin-right: 15px; */
+        /* margin: 0px 8px; */
+        /* text-align: center; */
+    }
+
+    .social img{
+        width: 30px;
+    }
+
+    .adjust-year{
+        position: static;
+        height: auto;
+        padding: 12px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
